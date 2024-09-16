@@ -58,3 +58,27 @@
 button {
   cursor: pointer;
 }
+
+@media screen and (max-width: 430px) {
+  .productContainer {
+    width: 90%;
+    flex-direction: column;
+    height: 200vh;
+    padding: 5px;
+  }
+
+  .nameContainer h2 {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+
+  .nameContainer {
+    height: 60%;
+  }
+
+  .infoContainer {
+    overflow-y: hidden;
+    height: 80%;
+    width: 100%;
+  }
+}
