@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.productCard {
+  display: flex;
+  padding: 10px;
+  background-color: bisque;
+  width: 400px;
+  height: 95%;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.productCard img {
+  width: 150px;
+  height: auto;
+}
+
+.textContainer {
+  color: black;
+}

@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 import Product from "./components/product/product";
 
@@ -20,6 +21,7 @@ export default function App() {
           description="The benchmark for pressure distribution, natural alignment, and support for healthy movement"
           specs="More than 20 physicians and PhDs in the fields of biomechanics, vision, physical therapy, and ergonomics contributed their expertise to help guide the development of this chair. As a result, Embody has set a new benchmark for pressure distribution, natural alignment, and support for healthy movement in ergonomic seating."
         />
+        <Footer />
       </div>
     </div>
   );

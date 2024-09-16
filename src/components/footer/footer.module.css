@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footerContainer {
+  width: 100vw;
+  height: 25vh;
+  background-color: rgb(255, 255, 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0px;
+  padding-right: 15px;
+}
+
+.footerContainer h2 {
+  color: black;
+  margin: 10px;
+}
+
+.productsList {
+  display: flex;
+  width: 300vw;
+  height: 80%;
+  overflow-x: auto;
+  column-gap: 20px;
+}
